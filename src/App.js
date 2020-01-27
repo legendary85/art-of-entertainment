@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Layout/navbar/Navbar.js'
+import Landing from './components/landing/Landing.js'
 import Footer from './components/Layout/footer/Footer.js'
 
 
@@ -11,7 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <section>
-        {/* <Landing /> */}
+        <Landing />
       </section>
       <Footer />
     </Router>
