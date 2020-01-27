@@ -1,0 +1,11 @@
+footer {
+  width: 100%;
+  background: black;
+  padding: 1.5em;
+  text-align: center;
+}
+
+  ul li {
+    color: white;
+    list-style: none;
+  }
