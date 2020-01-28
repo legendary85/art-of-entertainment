@@ -4,6 +4,7 @@ import Navbar from './components/Layout/navbar/Navbar.js'
 import Landing from './components/landing/Landing.js'
 import About from './components/about/About.js'
 import Packages from './components/packages/Packages.js'
+import ContactForm from './components/contact/ContactFrom.js'
 import Footer from './components/Layout/footer/Footer.js'
 
 
@@ -18,7 +19,7 @@ function App() {
           <Route exact path='/' component={Landing}></Route>
           <Route exact path='/about' component={About}></Route>
           <Route exact path='/packages' component={Packages}></Route>
-
+          <Route exact path='/contact' component={ContactForm}></Route>
         </Switch>
       </section>
       <Footer />

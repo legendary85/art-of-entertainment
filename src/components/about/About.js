@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import image1 from '../../assets/img/wed-2.jpg'
 
 import './About.css'
 
@@ -26,7 +27,7 @@ export class About extends Component {
           <div className="col-sm-4">
             <p><strong>Name</strong></p>
             <a href="#demo" data-toggle="collapse">
-              <img className='img-circle person' src="https://t2.genius.com/unsafe/220x220/https%3A%2F%2Fimages.genius.com%2F967e3d9ee88663c5a43e11adcecd9bcf.500x500x1.jpg" alt="Random Name"></img>
+              <img className='img-circle person' src={image1} alt="Random Name"></img>
             </a>
             <div id="demo" className="collapse">
               <p>Guitarist and Lead Vocalist</p>

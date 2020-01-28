@@ -2,13 +2,17 @@ import React from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import wed1 from '../../assets/img/wed-1.jpg'
+import wed2 from '../../assets/img/wed-2.jpg'
+import wed3 from '../../assets/img/wed-3.jpg'
+import wed4 from '../../assets/img/wed-4.jpg'
 
 import './Carousel.css'
 
 const photos = [
   {
     name: 'photo 1',
-    url: './wed-1.jpeg'
+    url: '../../assets/img/wed-1.jpg'
   },
   {
     name: 'photo 2',
