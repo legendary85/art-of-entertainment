@@ -1,12 +1,23 @@
-.jumbotron-fluid {
+.jumbotron {
   position: relative;
   height:100vh;
   /* background-image: url('./img/demo.jpg'); */
   background: #000;
-  background-image: url();
+  background-image: url('../../assets/img/showcase.png');
+  /* background-image: url('https://cdn.smehost.net/rcarecordscom-usrcaprod/wp-content/uploads/2018/03/DOJACAT_Juicy_Final-4.jpg'); */
   background-size: cover;
   text-align: center;
   width:100%;
   overflow: hidden;
-  border-bottom: 1px solid gold;
+  /* border-bottom: 1px solid gold; */
+  margin-bottom: 100px;
+  
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+  .jumbotron {
+    height:35vh;
+  
+  }
 }

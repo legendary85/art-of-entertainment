@@ -3,10 +3,12 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import './Carousel.css'
+
 const photos = [
   {
     name: 'photo 1',
-    url: 'https://images.unsplash.com/photo-1482575832494-771f74bf6857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+    url: './wed-1.jpeg'
   },
   {
     name: 'photo 2',
