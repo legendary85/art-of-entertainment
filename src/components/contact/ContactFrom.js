@@ -53,7 +53,7 @@ const ContactForm = () => {
                   <div className="help-block with-errors"></div>
                 </div>
               </div>
-              <div className=' field my-2'>
+              <div className='field my-2'>
                 <div data-netlify-recaptcha="true"></div>
               </div>
               <div className='col-md-12'>
