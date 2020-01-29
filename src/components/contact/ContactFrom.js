@@ -5,7 +5,7 @@ import './ContactForm.css'
 const ContactForm = () => {
   return (
     <div id='contact-form' className='container'>
-      <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+      <form action='POST' data-netlify="true" data-netlify-recaptcha="true">
         <div className="messages">
           <div className="controls">
             <div className="row">
@@ -53,7 +53,7 @@ const ContactForm = () => {
                   <div className="help-block with-errors"></div>
                 </div>
               </div>
-              <div className='my-2'>
+              <div className=' field my-2'>
                 <div data-netlify-recaptcha="true"></div>
               </div>
               <div className='col-md-12'>
