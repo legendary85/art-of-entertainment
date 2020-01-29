@@ -61,7 +61,7 @@ class Packages extends Component {
                   <br />
                   <br />
                 </ul>
-                <button id='goldBtn' type="button" className="btn  btn-block btn-lg  btn-primary ">Get started</button>
+                <button id='goldBtn' type="button" className="btn  btn-block btn-lg  btn-primary ">Book Event</button>
               </div>
             </div>
 
@@ -85,7 +85,7 @@ class Packages extends Component {
                     (Wedding)</li>
                   <li>Photo booth included <br />(valued at $100 hr)</li>
                 </ul>
-                <button id='platinumBtn' type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                <button id='platinumBtn' type="button" class="btn btn-lg btn-block btn-primary">Book Event</button>
               </div>
             </div>
           </div>

@@ -9,24 +9,24 @@ import wed4 from '../../assets/img/wed-4.jpg'
 
 import './Carousel.css'
 
-const photos = [
-  {
-    name: 'photo 1',
-    url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
-  },
-  {
-    name: 'photo 2',
-    url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
-  },
-  {
-    name: 'photo 3',
-    url: 'https://images.unsplash.com/photo-1546749876-2088f8b19e09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
-  },
-  {
-    name: 'photo 4',
-    url: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
-  },
-]
+// const photos = [
+//   {
+//     name: 'photo 1',
+//     url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+//   },
+//   {
+//     name: 'photo 2',
+//     url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+//   },
+//   {
+//     name: 'photo 3',
+//     url: 'https://images.unsplash.com/photo-1546749876-2088f8b19e09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+//   },
+//   {
+//     name: 'photo 4',
+//     url: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+//   },
+// ]
 class Carousel extends React.Component {
   render() {
 
@@ -55,6 +55,7 @@ class Carousel extends React.Component {
             )
           })}
         </Slider> */}
+
 
         <div>
           {/* <h2> Single Item</h2> */}

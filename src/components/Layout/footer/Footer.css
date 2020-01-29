@@ -11,3 +11,13 @@ footer {
     color: white;
     list-style: none;
   }
+
+  .fab{
+    font-size:1.5em;
+    padding:10px;
+    color:white
+}
+
+.fab:hover{
+  color:gold;
+}

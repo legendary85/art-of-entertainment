@@ -4,5 +4,7 @@
 }
 
 .btn {
-  background: gold !important;
+  background:black !important;
+  color:gold;
+  border: 1px solid gold !important;
 }
