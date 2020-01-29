@@ -1,0 +1,4 @@
+[build]
+base = "art-of-entertainment/"
+publish = "art-of-entertainment/build/"
+command = "npm build"
