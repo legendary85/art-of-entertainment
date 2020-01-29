@@ -18,3 +18,18 @@
   border-color: #f1f1f1;
   cursor: pointer;
 }
+
+/* iPad */
+@media (max-width: 1024px) {
+  #about-container{
+    padding: 30px;
+  }
+}
+
+/* Smartphones */
+
+@media (max-width: 500px) {
+  #about-container{
+    padding: 25px;
+  }
+}
