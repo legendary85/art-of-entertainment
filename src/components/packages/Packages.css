@@ -2,3 +2,7 @@
 .card-body ul li {
   color: black !important
 }
+
+.btn {
+  background: gold !important;
+}

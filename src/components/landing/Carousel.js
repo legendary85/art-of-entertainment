@@ -12,7 +12,7 @@ import './Carousel.css'
 const photos = [
   {
     name: 'photo 1',
-    url: '../../assets/img/wed-1.jpg'
+    url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
   },
   {
     name: 'photo 2',
@@ -46,7 +46,7 @@ class Carousel extends React.Component {
     };
     return (
       <div className='container'>
-        <Slider {...settings}>
+        {/* <Slider {...settings}>
           {photos.map((photo) => {
             return (
               <div>
@@ -54,7 +54,27 @@ class Carousel extends React.Component {
               </div>
             )
           })}
-        </Slider>
+        </Slider> */}
+
+        <div>
+          {/* <h2> Single Item</h2> */}
+          <Slider {...settings}>
+            <div>
+              <img width='100%' src={wed2} alt="" srcset="" />
+            </div>
+            <div>
+              <img width='100%' src={wed1} alt="" srcset="" />
+            </div>
+            <div>
+              <img width='100%' src={wed4} alt="" srcset="" />
+            </div>
+            <div>
+              <img width='100%' src={wed3} alt="" srcset="" />
+            </div>
+          </Slider>
+        </div>
+
+
       </div>
 
     )

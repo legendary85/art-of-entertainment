@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import image1 from '../../assets/img/wed-2.jpg'
+import artwork from '../../assets/img/djartwork.jpg'
 
 import './About.css'
 
@@ -27,12 +27,12 @@ export class About extends Component {
           <div className="col-sm-4">
             <p><strong>Name</strong></p>
             <a href="#demo" data-toggle="collapse">
-              <img className='img-circle person' src={image1} alt="Random Name"></img>
+              <img className='img-circle person' src={artwork} alt="Random Name"></img>
             </a>
             <div id="demo" className="collapse">
-              <p>Guitarist and Lead Vocalist</p>
-              <p>Loves long walks on the beach</p>
-              <p>Member since 1988</p>
+              <p>Mobile DJ</p>
+              <p>Love to Travel</p>
+              <p>DJ since 2016</p>
             </div>
           </div>
           <div className="col-sm-4">

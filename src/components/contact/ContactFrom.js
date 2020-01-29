@@ -35,10 +35,11 @@ const ContactForm = () => {
                   <label for="form_need">Please specify your need *</label>
                   <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
                     <option value=""></option>
-                    <option value="Request quotation">Request quotation</option>
-                    <option value="Request order status">Wedding</option>
-                    <option value="Request copy of an invoice">Event</option>
-                    <option value="Other">Other</option>
+                    <option value="Request quotation">Request a Quote</option>
+                    <option value="platinum">Platinum Package</option>
+                    <option value="gold">Gold Package</option>
+                    <option value="bronze">Bronze Package</option>
+                    <option value="other">Other</option>
                   </select>
                   <div className="help-block with-errors"></div>
                 </div>

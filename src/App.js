@@ -22,7 +22,7 @@ function App() {
           <Route exact path='/contact' component={ContactForm}></Route>
         </Switch>
       </section>
-      <Footer />
+      <Footer style={{ color: 'red' }} />
     </Router>
   );
 }
