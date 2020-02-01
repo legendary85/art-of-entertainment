@@ -32,9 +32,6 @@ class Packages extends Component {
                   <br />
                   <br />
                   <br />
-
-
-
                 </ul>
                 <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>
               </div>
@@ -46,7 +43,7 @@ class Packages extends Component {
                   <li>(2) PA Speakers</li>
                   <li>(2) Wireless Microphones</li>
                   <li>(8) Uplights</li>
-
+                  <br />
                 </ul>
                 <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>
               </div>
