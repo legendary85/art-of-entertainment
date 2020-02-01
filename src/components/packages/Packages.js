@@ -16,7 +16,7 @@ class Packages extends Component {
               <div className="card-header">
                 <h4 className="my-0 font-weight-normal">Bronze Package </h4>
               </div>
-              <div className="card-body">
+              <div className="card-body normal">
                 {/* <h1 className="card-title pricing-card-title">$100<small className="text-muted">/ hr</small></h1> */}
                 <ul className="list-unstyled mt-3 mb-4">
                   <li>DJ Service/MC</li>
@@ -34,6 +34,18 @@ class Packages extends Component {
                   <br />
 
 
+
+                </ul>
+                <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>
+              </div>
+              <div className="card-body mobile">
+                {/* <h1 className="card-title pricing-card-title">$100<small className="text-muted">/ hr</small></h1> */}
+                <ul className="list-unstyled mt-3 mb-4">
+                  <li>DJ Service/MC</li>
+                  <li>Facade</li>
+                  <li>(2) PA Speakers</li>
+                  <li>(2) Wireless Microphones</li>
+                  <li>(8) Uplights</li>
 
                 </ul>
                 <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>

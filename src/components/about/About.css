@@ -5,6 +5,11 @@
   color:white
 }
 
+.aboutUs{
+  padding-bottom: 1.5rem;
+  color: gold;
+}
+
 .person {
   border: 10px solid transparent;
   margin-bottom: 25px;

@@ -56,6 +56,11 @@ class Carousel extends React.Component {
           })}
         </Slider> */}
 
+        <div className='text-center'>
+          <p className='buttonHead'>Know what you want?</p>
+          <button type='button' className='btn btn-warning my-5'>Book Now</button>
+        </div>
+
 
         <div>
           {/* <h2> Single Item</h2> */}

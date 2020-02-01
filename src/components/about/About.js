@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import artwork from '../../assets/img/djartwork.jpg'
+import blankImg from '../../assets/img/download.jpg'
 
 import './About.css'
 
@@ -7,10 +7,11 @@ export class About extends Component {
   render() {
     return (
       <div id='about-container' className="container text-center">
-        <h3>DJ Artwork</h3>
-        <p><em>We love music!</em></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque, dignissimos fugit atque amet autem excepturi deleniti. Ratione, eligendi quos officiis dicta error asperiores amet eius nostrum fuga itaque magnam iusto inventore. Vel et quaerat at quibusdam sequi aut ipsa praesentium aspernatur quas id! Dignissimos possimus nobis ipsum non! Eaque iste accusamus possimus incidunt minus animi natus sint, rerum similique a aut expedita sed asperiores architecto provident facilis eveniet aliquid facere ducimus temporibus accusantium non dolor perferendis! Labore, sequi. Laboriosam aut molestias perspiciatis qui debitis, earum quidem velit eligendi sed sapiente placeat, numquam, et incidunt beatae. Quae consequatur quod quis labore eum veritatis incidunt possimus accusamus. Exercitationem, nostrum laudantium repudiandae eius quam ipsam illum, quasi voluptatibus laboriosam omnis, temporibus iure assumenda beatae quidem optio quos obcaecati? Itaque, ipsum? Quas, tempora dolore quidem et nisi voluptatum sequi expedita incidunt possimus cupiditate!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem reiciendis ipsum animi quisquam, atque nam libero minus itaque, aperiam modi harum fugiat aspernatur autem rerum repellendus corrupti porro aliquam nostrum. Accusamus laboriosam temporibus sed nam commodi harum repudiandae laborum atque.</p>
+        <h3 className='aboutUs'>About us</h3>
+        {/* <p><em>We love what we do!</em></p> */}
+        <p>Founded by owner and DJ US Navy veteran Karkeis Artis (DJ Artwork), Art of Entertainment Entertainment was started 4 years ago in Atlanta GA. Alongside business partner and DJ Gavin Nicholson, Art of Entertainment has skyrocketed to new horizons.</p>
+        <p>Planning an event? Looking for an energetic, passionate, and professional DJ and entertainment company?  Art of Entertainment does just that. Our DJs cater to your needs and ensure that your event is a time to remember. We provide a wide variety of genres of music, and customized playlists just how you imagined it. Weddings, corporate events, birthday parties, school functions, you name it. Our absolute #1 priority is to create an unforgettable experience and an atmosphere like no other.</p>
+        <p>Remember, Your Event is a Work of Art.</p>
         <br />
         <div className="row">
           <div className="col-sm-4">
@@ -25,11 +26,11 @@ export class About extends Component {
             </div> */}
           </div>
           <div className="col-sm-4">
-            <p><strong>Karkeis Artis</strong></p>
+            <p><strong>DJ Artwork</strong></p>
             {/* <a href="#demo" data-toggle="collapse">
               <img className='img-circle person' src={artwork} alt="Random Name"></img>
             </a> */}
-            <img className='img-circle person' src={artwork} alt="Random Name"></img>
+            <img className='img-circle person' src={blankImg} alt="Random Name"></img>
             {/* <div id="demo" className="collapse">
               <p>Mobile DJ</p>
               <p>Love to Travel</p>
